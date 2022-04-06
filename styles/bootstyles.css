@@ -1,30 +1,75 @@
-/* Sarah-Jane Christensen, 4/4/22
+/* Sarah-Jane Christensen, 4/6/22
 This is for me to do my own styling in my Tableau page. */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: lightblue;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+
+.navibar {
+    background-color: black;
+    top: 5px;
+    height: 50px;
+    left: 5px;
+    right: 5px;
+    font-size: 15px;
+    position: absolute;
+    opacity: 1;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-  }
+}
+
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
   
-  li a:hover {
-    background-color: darkslateblue;
-  }
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    color: white
+}
+
+li a:hover {
+    background-color: gray;
+}
 
 body {
-    background-color: rgb(122, 203, 230);
+    background-color: blanchedalmond;
+}
+
+.foooter {
+    background-color: black;
+    bottom: 5px;
+    height: 50px;
+    left: 5px;
+    right: 5px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    position: fixed;
+    z-index: 1;
+    opacity: 0.9;
+    font-family: monospace;
+}
+
+.linky {
+    color: white;
+}
+
+.linky:hover {
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.mainbody {
+    top: 60px;
+    bottom: 60px;
+    left: 5px;
+    right: 5px;
+    position: absolute;
+    background-color: burlywood;
 }
