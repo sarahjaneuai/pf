@@ -1,4 +1,4 @@
-/* Sarah-Jane Christensen, 4/6/22
+/* Sarah-Jane Christensen, 4/12/22
 This is for me to do my own styling in my Tableau page. */
 
 .navibar {
@@ -10,7 +10,7 @@ This is for me to do my own styling in my Tableau page. */
     font-size: 15px;
     position: absolute;
     opacity: 1;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 ul {
@@ -29,7 +29,7 @@ li a {
     text-align: center;
     padding: 16px 16px;
     text-decoration: none;
-    color: white
+    color: white;
 }
 
 li a:hover {
@@ -85,16 +85,13 @@ body {
     left: 5px;
     right: 5px;
     position: absolute;
-    background-color: burlywood;
-    text-align: center;
-    font-family: serif;
 }
 
 .graph3 {
     top: 2240px;
     left: 0px;
     right: 0px;
-    position: absolute
+    position: absolute;
 }
 
 .bodytime2 {
@@ -103,16 +100,13 @@ body {
     left: 5px;
     right: 5px;
     position: absolute;
-    background-color: burlywood;
-    text-align: center;
-    font-family: serif;
 }
 
 .graph4 {
     top: 2300px;
     left: 0px;
     right: 0px;
-    position: absolute
+    position: absolute;
 }
 
 .bodytime3 {
@@ -121,9 +115,6 @@ body {
     left: 0px;
     right: 0px;
     position: absolute;
-    background-color: burlywood;
-    text-align: center;
-    font-family: serif;
 }
 
 .bodytime4 {
@@ -132,7 +123,11 @@ body {
     left: 0px;
     right: 0px;
     position: absolute;
+}
+
+p {
     background-color: burlywood;
     text-align: center;
     font-family: serif;
+    font-weight: bold;
 }
