@@ -2,13 +2,13 @@
 This is for me to do my own styling. */
 
 body {
-    background-image: url(../images/otherbg.png);
+    background-image: url(../images/try.png);
     background-size: fill;
     background-position: right;
 }
 
 .homebg {
-    background-image: url(../images/mybg.png);
+    background-image: url(../images/coimbra.png);
     background-size: fill;
     background-position: left;
 }
@@ -112,4 +112,8 @@ body {
 
 .anotherpad {
     padding-left: 400px;
+}
+
+.attempt {
+    padding-right: 250px;
 }
