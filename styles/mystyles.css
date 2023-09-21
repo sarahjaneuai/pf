@@ -53,6 +53,10 @@ body {
     font-weight: bold;
 }
 
+.italic {
+    font-style: italic;
+}
+
 .normal {
     font-weight: normal;
 }
@@ -116,4 +120,36 @@ body {
 
 .attempt {
     padding-right: 250px;
+}
+
+.collapsible {
+    background-color: lightblue;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+}
+  
+  .active, .collapsible:hover {
+    background-color: darkslateblue;
+    color: white;
+}
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: rgba(173, 216, 230, 0.634);
+}
+
+p.a {
+    text-indent: 50px;
+}
+
+p.b {
+    text-indent: -10px;
 }
