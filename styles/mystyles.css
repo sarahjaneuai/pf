@@ -153,3 +153,11 @@ p.a {
 p.b {
     text-indent: -10px;
 }
+
+.indice {
+    font-weight: 800;
+    font-size: 4rem;
+    text-decoration: none;
+    color: black;
+    background-color: lightblue;
+}
